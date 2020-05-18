@@ -7,14 +7,15 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="Hello World!"
         android:textAllCaps="false"
         android:textColor="@color/colorPrimary"
-        android:textSize="20sp"
 
+        android:textSize="20sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -74,5 +75,13 @@
         android:text="CheckBox"
         tools:layout_editor_absoluteX="250dp"
         tools:layout_editor_absoluteY="267dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="441dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
